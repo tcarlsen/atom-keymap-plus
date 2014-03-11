@@ -6,7 +6,9 @@
 
 The idea is to make it easier to use the same keymap for multiple plugins without them overlapping each other.
 
-At the moment there is only on class function `setFileClasses()`, but more will come as needed.
+Keymap plus makes it possible to have the same keymap do different things. This is achieve by adding class names to the editor. That way you can use additional classes when assigning keymaps.
+
+At the moment there is only one class function (`setFileClasses()`), that makes it posible to base your keymap on the active grammar.
 
 ## Usage
 
