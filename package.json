@@ -1,7 +1,7 @@
 {
   "name": "atom-keymap-plus",
   "version": "0.0.0",
-  "description": "",
+  "description": "An easy way to expand the keymap feature in Atom",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
