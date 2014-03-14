@@ -1,6 +1,6 @@
 {
   "name": "atom-keymap-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An easy way to expand the keymap feature in Atom",
   "main": "index.js",
   "scripts": {
