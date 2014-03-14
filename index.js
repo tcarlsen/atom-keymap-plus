@@ -6,15 +6,15 @@ module.exports = {
     setFileClasses: function () {
         'use strict';
 
-        var editor = atom.workspace.getActiveEditor(),
-            language,
-            className;
-
-        if (!editor) {
-            return;
-        }
-
         atom.workspaceView.on('editor:grammar-changed', function () {
+            var editor = atom.workspace.getActiveEditor(),
+                language,
+                className;
+
+            if (!editor) {
+                return;
+            }
+
             language = editor.getGrammar().name;
             className = language.toLowerCase();
 
