@@ -6,7 +6,7 @@ module.exports = {
     setFileClasses: function () {
         'use strict';
 
-        atom.workspaceView.on('editor:grammar-changed', function () {
+        atom.workspaceView.on('editor:grammar-changed pane-container:active-pane-item-changed destroyed', function () {
             var editor = atom.workspace.getActiveEditor(),
                 language,
                 className;
